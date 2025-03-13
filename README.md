@@ -21,7 +21,7 @@ To access the material via a browser, follow this link: https://posit.cloud/plan
 2. Create a new R script under 'Files' --> 'New file'.
 3. Enter the following code into the script:
    ```R
-   # Load the necessary packages to run the application. These packages extend the base functionality of R, allowing us to open and work with applications that have a user interface, as in the case of ShinyTextMining.
+   # Load the necessary packages to run the application. These packages extend the base functionality of R, allowing us to open and work with applications that have a user interface, as in the case of TextMining.
    library(shiny)
    library(thematic)
    library(readtext)
@@ -36,8 +36,8 @@ To access the material via a browser, follow this link: https://posit.cloud/plan
    library(ggwordcloud)
    library(tidygraph)
 
-   # Here we tell R to open the ShinyTextMining application hosted on GitHub under AUL-Arts-Digital-Lab
-   runGitHub("ShinyTextMining", "AUL-Arts-Digital-Lab")
+   # Here we tell R to open the TextMining application hosted on GitHub under AUL-BSS-Datalab
+   runGitHub("TextMining_en", "AUL-BSS-Datalab")
    ```
 4. Run the code by pressing Shift + Ctrl + Enter.
 5. You can now access the text mining application.
@@ -55,7 +55,7 @@ Download RStudio here: https://posit.co/download/rstudio-desktop/
 1. Create a new R script under 'Files'.
 2. Enter the following code:
    ```R
-   # Load the necessary packages to run the application. These packages extend the base functionality of R, allowing us to open and work with applications that have a user interface, as in the case of ShinyTextMining.
+   # Load the necessary packages to run the application. These packages extend the base functionality of R, allowing us to open and work with applications that have a user interface, as in the case of TextMining.
    library(shiny)
    library(thematic)
    library(readtext)
@@ -70,8 +70,8 @@ Download RStudio here: https://posit.co/download/rstudio-desktop/
    library(ggwordcloud)
    library(tidygraph)
 
-   # Here we tell R to open the ShinyTextMining application hosted on GitHub under AUL-Arts-Digital-Lab
-   runGitHub("ShinyTextMining", "AUL-Arts-Digital-Lab")
+   # Here we tell R to open the TextMining_en application hosted on GitHub under AUL-BSS-Datalab
+   runGitHub("TextMining_en", "AUL-BSS-Datalab")
    ```
 3. Run the code by pressing Shift + Ctrl + Enter.
 4. You can now access the text mining application.
