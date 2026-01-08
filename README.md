@@ -12,6 +12,8 @@ This folder contains English and Danish stopword lists. Users can view the conte
 ## Accessing the Material
 The text mining application can be run in two ways: via Posit Cloud, accessed through a browser, or locally on your own computer.
 
+NB. The program is build with R version 4.4.2 (Pile of Leaves) so there may be challenges running it with other versions of R.
+
 ## Accessing the Material via a Browser
 ### 1. Go to Posit Cloud
 To access the material via a browser, follow this link: https://posit.cloud/plans/free. You can create a free account or log in if you already have one.
